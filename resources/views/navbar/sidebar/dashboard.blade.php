@@ -3,6 +3,9 @@
 @section('title', 'Dashboard')
 
 @section('content')
-    <h1>Welcome to the Home Page</h1>
-    <!-- Your home page content goes here -->
+
+<div class="page-heading">
+    <h3>Dashboard</h3>
+</div>            
+
 @endsection
