@@ -46,15 +46,15 @@
 <!-- beautify ignore:start -->
 
 
-<html lang="en" class="light-style layout-navbar-fixed layout-menu-fixed layout-compact " dir="ltr" data-theme="theme-default" data-assets-path="assets/" data-template="vertical-menu-template">
+<html lang="en" class="light-style layout-navbar-fixed layout-menu-fixed layout-compact " dir="ltr" data-theme="theme-default" data-assets-path="../../assets/" data-template="vertical-menu-template">
 
   
-<!-- Mirrored from demos.themeselection.com/sneat-bootstrap-html-admin-template/html/vertical-menu-template/app-calendar.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 13 Jan 2024 08:23:07 GMT -->
+<!-- Mirrored from demos.themeselection.com/sneat-bootstrap-html-admin-template/html/vertical-menu-template/app-user-list.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 13 Jan 2024 08:23:30 GMT -->
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
-    <title>Fullcalendar - Apps | Sneat - Bootstrap 5 HTML Admin Template - Pro</title>
+    <title>User List - Pages | Sneat - Bootstrap 5 HTML Admin Template - Pro</title>
 
     
     <meta name="description" content="Most Powerful &amp; Comprehensive Bootstrap 5 HTML Admin Dashboard Template built for developers!" />
@@ -67,7 +67,7 @@
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
       j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+      '../../../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
       })(window,document,'script','dataLayer','GTM-5DDHKGP');</script>
     <!-- End Google Tag Manager -->
     
@@ -80,35 +80,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet">
 
     <!-- Icons -->
-    <link rel="stylesheet" href="{{ asset('assets/vendor/fonts/boxicons.css')}}" />
-    <link rel="stylesheet" href="{{ asset('assets/vendor/fonts/fontawesome.css')}}" />
-    <link rel="stylesheet" href="{{ asset('assets/vendor/fonts/flag-icons.css')}}" />
+    <link rel="stylesheet" href="../../assets/vendor/fonts/boxicons.css" />
+    <link rel="stylesheet" href="../../assets/vendor/fonts/fontawesome.css" />
+    <link rel="stylesheet" href="../../assets/vendor/fonts/flag-icons.css" />
 
     <!-- Core CSS -->
-    <link rel="stylesheet" href="{{ asset('assets/vendor/css/rtl/core.css')}}" class="template-customizer-core-css" />
-    <link rel="stylesheet" href="{{ asset('assets/vendor/css/rtl/theme-default.css')}}" class="template-customizer-theme-css" />
-    <link rel="stylesheet" href="{{ asset('assets/css/demo.css')}}" />
+    <link rel="stylesheet" href="../../assets/vendor/css/rtl/core.css" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="../../assets/vendor/css/rtl/theme-default.css" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="../../assets/css/demo.css" />
     
     <!-- Vendors CSS -->
-    <link rel="stylesheet" href="{{ asset('assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css')}}" />
-    <link rel="stylesheet" href="{{ asset('assets/vendor/libs/typeahead-js/typeahead.css')}}" /> 
-    <link rel="stylesheet" href="{{ asset('assets/vendor/libs/fullcalendar/fullcalendar.css')}}" />
-    <link rel="stylesheet" href="{{ asset('assets/vendor/libs/flatpickr/flatpickr.css')}}" />
-    <link rel="stylesheet" href="{{ asset('assets/vendor/libs/select2/select2.css')}}" />
-    <link rel="stylesheet" href="{{ asset('assets/vendor/libs/quill/editor.css')}}" />
-    <link rel="stylesheet" href="{{ asset('assets/vendor/libs/%40form-validation/umd/styles/index.min.css')}}" />
+    <link rel="stylesheet" href="../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+    <link rel="stylesheet" href="../../assets/vendor/libs/typeahead-js/typeahead.css" /> 
+    <link rel="stylesheet" href="../../assets/vendor/libs/datatables-bs5/datatables.bootstrap5.css">
+<link rel="stylesheet" href="../../assets/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.css">
+<link rel="stylesheet" href="../../assets/vendor/libs/datatables-buttons-bs5/buttons.bootstrap5.css">
+<link rel="stylesheet" href="../../assets/vendor/libs/select2/select2.css" />
+<link rel="stylesheet" href="../../assets/vendor/libs/%40form-validation/umd/styles/index.min.css" />
 
     <!-- Page CSS -->
     
-<link rel="stylesheet" href="{{ asset('assets/vendor/css/pages/app-calendar.css')}}" />
 
     <!-- Helpers -->
-    <script src="{{ asset('assets/vendor/js/helpers.js')}}"></script>
+    <script src="../../assets/vendor/js/helpers.js"></script>
     <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
     <!--? Template customizer: To hide customizer set displayCustomizer value false in config.js.  -->
-    <script src="{{ asset('assets/vendor/js/template-customizer.js')}}"></script>
+    <script src="../../assets/vendor/js/template-customizer.js"></script>
     <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
-    <script src="{{ asset('assets/js/config.js')}}"></script>
+    <script src="../../assets/js/config.js"></script>
     
 </head>
 
@@ -330,7 +329,7 @@
         <div class="text-truncate" data-i18n="Chat">Chat</div>
       </a>
     </li>
-    <li class="menu-item active">
+    <li class="menu-item">
       <a href="app-calendar.html" class="menu-link">
         <i class="menu-icon tf-icons bx bx-calendar"></i>
         <div class="text-truncate" data-i18n="Calendar">Calendar</div>
@@ -555,13 +554,13 @@
         </li>
       </ul>
     </li>
-    <li class="menu-item">
+    <li class="menu-item active open">
       <a href="javascript:void(0);" class="menu-link menu-toggle">
         <i class="menu-icon tf-icons bx bx-user"></i>
         <div class="text-truncate" data-i18n="Users">Users</div>
       </a>
       <ul class="menu-sub">
-        <li class="menu-item">
+        <li class="menu-item active">
           <a href="app-user-list.html" class="menu-link">
             <div class="text-truncate" data-i18n="List">List</div>
           </a>
@@ -1522,7 +1521,7 @@
                     <div class="d-flex">
                       <div class="flex-shrink-0 me-3">
                         <div class="avatar">
-                          <img src="assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle">
+                          <img src="../../assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle">
                         </div>
                       </div>
                       <div class="flex-grow-1">
@@ -1558,7 +1557,7 @@
                     <div class="d-flex">
                       <div class="flex-shrink-0 me-3">
                         <div class="avatar">
-                          <img src="assets/img/avatars/2.png" alt class="w-px-40 h-auto rounded-circle">
+                          <img src="../../assets/img/avatars/2.png" alt class="w-px-40 h-auto rounded-circle">
                         </div>
                       </div>
                       <div class="flex-grow-1">
@@ -1594,7 +1593,7 @@
                     <div class="d-flex">
                       <div class="flex-shrink-0 me-3">
                         <div class="avatar">
-                          <img src="assets/img/avatars/9.png" alt class="w-px-40 h-auto rounded-circle">
+                          <img src="../../assets/img/avatars/9.png" alt class="w-px-40 h-auto rounded-circle">
                         </div>
                       </div>
                       <div class="flex-grow-1">
@@ -1630,7 +1629,7 @@
                     <div class="d-flex">
                       <div class="flex-shrink-0 me-3">
                         <div class="avatar">
-                          <img src="assets/img/avatars/5.png" alt class="w-px-40 h-auto rounded-circle">
+                          <img src="../../assets/img/avatars/5.png" alt class="w-px-40 h-auto rounded-circle">
                         </div>
                       </div>
                       <div class="flex-grow-1">
@@ -1648,7 +1647,7 @@
                     <div class="d-flex">
                       <div class="flex-shrink-0 me-3">
                         <div class="avatar">
-                          <img src="assets/img/avatars/6.png" alt class="w-px-40 h-auto rounded-circle">
+                          <img src="../../assets/img/avatars/6.png" alt class="w-px-40 h-auto rounded-circle">
                         </div>
                       </div>
                       <div class="flex-grow-1">
@@ -1692,7 +1691,7 @@
           <li class="nav-item navbar-dropdown dropdown-user dropdown">
             <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
               <div class="avatar avatar-online">
-                <img src="assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle">
+                <img src="../../assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle">
               </div>
             </a>
             <ul class="dropdown-menu dropdown-menu-end">
@@ -1701,7 +1700,7 @@
                   <div class="d-flex">
                     <div class="flex-shrink-0 me-3">
                       <div class="avatar avatar-online">
-                        <img src="assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle">
+                        <img src="../../assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle">
                       </div>
                     </div>
                     <div class="flex-grow-1">
@@ -1791,148 +1790,198 @@
           <div class="container-xxl flex-grow-1 container-p-y">
             
             
-<div class="card app-calendar-wrapper">
-  <div class="row g-0">
-    <!-- Calendar Sidebar -->
-    <div class="col app-calendar-sidebar" id="app-calendar-sidebar">
-      <div class="border-bottom p-4 my-sm-0 mb-3">
-        <div class="d-grid">
-          <button class="btn btn-primary btn-toggle-sidebar" data-bs-toggle="offcanvas" data-bs-target="#addEventSidebar" aria-controls="addEventSidebar">
-            <i class="bx bx-plus me-1"></i>
-            <span class="align-middle">Add Event</span>
-          </button>
-        </div>
-      </div>
-      <div class="p-4">
-        <!-- inline calendar (flatpicker) -->
-        <div class="ms-n2">
-          <div class="inline-calendar"></div>
-        </div>
 
-        <hr class="container-m-nx my-4">
-
-        <!-- Filter -->
-        <div class="mb-4">
-          <small class="text-small text-muted text-uppercase align-middle">Filter</small>
-        </div>
-
-        <div class="form-check mb-2">
-          <input class="form-check-input select-all" type="checkbox" id="selectAll" data-value="all" checked>
-          <label class="form-check-label" for="selectAll">View All</label>
-        </div>
-
-        <div class="app-calendar-events-filter">
-          <div class="form-check form-check-danger mb-2">
-            <input class="form-check-input input-filter" type="checkbox" id="select-personal" data-value="personal" checked>
-            <label class="form-check-label" for="select-personal">Personal</label>
+<div class="row g-4 mb-4">
+  <div class="col-sm-6 col-xl-3">
+    <div class="card">
+      <div class="card-body">
+        <div class="d-flex align-items-start justify-content-between">
+          <div class="content-left">
+            <span>Session</span>
+            <div class="d-flex align-items-end mt-2">
+              <h4 class="mb-0 me-2">21,459</h4>
+              <small class="text-success">(+29%)</small>
+            </div>
+            <p class="mb-0">Total Users</p>
           </div>
-          <div class="form-check mb-2">
-            <input class="form-check-input input-filter" type="checkbox" id="select-business" data-value="business" checked>
-            <label class="form-check-label" for="select-business">Business</label>
-          </div>
-          <div class="form-check form-check-warning mb-2">
-            <input class="form-check-input input-filter" type="checkbox" id="select-family" data-value="family" checked>
-            <label class="form-check-label" for="select-family">Family</label>
-          </div>
-          <div class="form-check form-check-success mb-2">
-            <input class="form-check-input input-filter" type="checkbox" id="select-holiday" data-value="holiday" checked>
-            <label class="form-check-label" for="select-holiday">Holiday</label>
-          </div>
-          <div class="form-check form-check-info">
-            <input class="form-check-input input-filter" type="checkbox" id="select-etc" data-value="etc" checked>
-            <label class="form-check-label" for="select-etc">ETC</label>
+          <div class="avatar">
+            <span class="avatar-initial rounded bg-label-primary">
+              <i class="bx bx-user bx-sm"></i>
+            </span>
           </div>
         </div>
       </div>
     </div>
-    <!-- /Calendar Sidebar -->
-
-    <!-- Calendar & Modal -->
-    <div class="col app-calendar-content">
-      <div class="card shadow-none border-0">
-        <div class="card-body pb-0">
-          <!-- FullCalendar -->
-          <div id="calendar"></div>
-        </div>
-      </div>
-      <div class="app-overlay"></div>
-      <!-- FullCalendar Offcanvas -->
-      <div class="offcanvas offcanvas-end event-sidebar" tabindex="-1" id="addEventSidebar" aria-labelledby="addEventSidebarLabel">
-        <div class="offcanvas-header border-bottom">
-          <h5 class="offcanvas-title mb-2" id="addEventSidebarLabel">Add Event</h5>
-          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <form class="event-form pt-0" id="eventForm" onsubmit="return false">
-            <div class="mb-3">
-              <label class="form-label" for="eventTitle">Title</label>
-              <input type="text" class="form-control" id="eventTitle" name="eventTitle" placeholder="Event Title" />
+  </div>
+  <div class="col-sm-6 col-xl-3">
+    <div class="card">
+      <div class="card-body">
+        <div class="d-flex align-items-start justify-content-between">
+          <div class="content-left">
+            <span>Paid Users</span>
+            <div class="d-flex align-items-end mt-2">
+              <h4 class="mb-0 me-2">4,567</h4>
+              <small class="text-success">(+18%)</small>
             </div>
-            <div class="mb-3">
-              <label class="form-label" for="eventLabel">Label</label>
-              <select class="select2 select-event-label form-select" id="eventLabel" name="eventLabel">
-                <option data-label="primary" value="Business" selected>Business</option>
-                <option data-label="danger" value="Personal">Personal</option>
-                <option data-label="warning" value="Family">Family</option>
-                <option data-label="success" value="Holiday">Holiday</option>
-                <option data-label="info" value="ETC">ETC</option>
-              </select>
-            </div>
-            <div class="mb-3">
-              <label class="form-label" for="eventStartDate">Start Date</label>
-              <input type="text" class="form-control" id="eventStartDate" name="eventStartDate" placeholder="Start Date" />
-            </div>
-            <div class="mb-3">
-              <label class="form-label" for="eventEndDate">End Date</label>
-              <input type="text" class="form-control" id="eventEndDate" name="eventEndDate" placeholder="End Date" />
-            </div>
-            <div class="mb-3">
-              <label class="switch">
-                <input type="checkbox" class="switch-input allDay-switch" />
-                <span class="switch-toggle-slider">
-                  <span class="switch-on"></span>
-                  <span class="switch-off"></span>
-                </span>
-                <span class="switch-label">All Day</span>
-              </label>
-            </div>
-            <div class="mb-3">
-              <label class="form-label" for="eventURL">Event URL</label>
-              <input type="url" class="form-control" id="eventURL" name="eventURL" placeholder="https://www.google.com/" />
-            </div>
-            <div class="mb-3 select2-primary">
-              <label class="form-label" for="eventGuests">Add Guests</label>
-              <select class="select2 select-event-guests form-select" id="eventGuests" name="eventGuests" multiple>
-                <option data-avatar="1.png" value="Jane Foster">Jane Foster</option>
-                <option data-avatar="3.png" value="Donna Frank">Donna Frank</option>
-                <option data-avatar="5.png" value="Gabrielle Robertson">Gabrielle Robertson</option>
-                <option data-avatar="7.png" value="Lori Spears">Lori Spears</option>
-                <option data-avatar="9.png" value="Sandy Vega">Sandy Vega</option>
-                <option data-avatar="11.png" value="Cheryl May">Cheryl May</option>
-              </select>
-            </div>
-            <div class="mb-3">
-              <label class="form-label" for="eventLocation">Location</label>
-              <input type="text" class="form-control" id="eventLocation" name="eventLocation" placeholder="Enter Location" />
-            </div>
-            <div class="mb-3">
-              <label class="form-label" for="eventDescription">Description</label>
-              <textarea class="form-control" name="eventDescription" id="eventDescription"></textarea>
-            </div>
-            <div class="mb-3 d-flex justify-content-sm-between justify-content-start my-4">
-              <div>
-                <button type="submit" class="btn btn-primary btn-add-event me-sm-3 me-1">Add</button>
-                <button type="reset" class="btn btn-label-secondary btn-cancel me-sm-0 me-1" data-bs-dismiss="offcanvas">Cancel</button>
-              </div>
-              <div><button class="btn btn-label-danger btn-delete-event d-none">Delete</button></div>
-            </div>
-          </form>
+            <p class="mb-0">Last week analytics </p>
+          </div>
+          <div class="avatar">
+            <span class="avatar-initial rounded bg-label-danger">
+              <i class="bx bx-user-check bx-sm"></i>
+            </span>
+          </div>
         </div>
       </div>
     </div>
-    <!-- /Calendar & Modal -->
+  </div>
+  <div class="col-sm-6 col-xl-3">
+    <div class="card">
+      <div class="card-body">
+        <div class="d-flex align-items-start justify-content-between">
+          <div class="content-left">
+            <span>Active Users</span>
+            <div class="d-flex align-items-end mt-2">
+              <h4 class="mb-0 me-2">19,860</h4>
+              <small class="text-danger">(-14%)</small>
+            </div>
+            <p class="mb-0">Last week analytics</p>
+          </div>
+          <div class="avatar">
+            <span class="avatar-initial rounded bg-label-success">
+              <i class="bx bx-group bx-sm"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-xl-3">
+    <div class="card">
+      <div class="card-body">
+        <div class="d-flex align-items-start justify-content-between">
+          <div class="content-left">
+            <span>Pending Users</span>
+            <div class="d-flex align-items-end mt-2">
+              <h4 class="mb-0 me-2">237</h4>
+              <small class="text-success">(+42%)</small>
+            </div>
+            <p class="mb-0">Last week analytics</p>
+          </div>
+          <div class="avatar">
+            <span class="avatar-initial rounded bg-label-warning">
+              <i class="bx bx-user-voice bx-sm"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
+<!-- Users List Table -->
+<div class="card">
+  <div class="card-header border-bottom">
+    <h5 class="card-title">Search Filter</h5>
+    <div class="d-flex justify-content-between align-items-center row py-3 gap-3 gap-md-0">
+      <div class="col-md-4 user_role"></div>
+      <div class="col-md-4 user_plan"></div>
+      <div class="col-md-4 user_status"></div>
+    </div>
+  </div>
+  <div class="card-datatable table-responsive">
+    <table class="datatables-users table border-top">
+      <thead>
+        <tr>
+          <th></th>
+          <th>User</th>
+          <th>Role</th>
+          <th>Plan</th>
+          <th>Billing</th>
+          <th>Status</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+    </table>
+  </div>
+  <!-- Offcanvas to add new user -->
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasAddUser" aria-labelledby="offcanvasAddUserLabel">
+    <div class="offcanvas-header">
+      <h5 id="offcanvasAddUserLabel" class="offcanvas-title">Add User</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body mx-0 flex-grow-0">
+      <form class="add-new-user pt-0" id="addNewUserForm" onsubmit="return false">
+        <div class="mb-3">
+          <label class="form-label" for="add-user-fullname">Full Name</label>
+          <input type="text" class="form-control" id="add-user-fullname" placeholder="John Doe" name="userFullname" aria-label="John Doe" />
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="add-user-email">Email</label>
+          <input type="text" id="add-user-email" class="form-control" placeholder="john.doe@example.com" aria-label="john.doe@example.com" name="userEmail" />
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="add-user-contact">Contact</label>
+          <input type="text" id="add-user-contact" class="form-control phone-mask" placeholder="+1 (609) 988-44-11" aria-label="john.doe@example.com" name="userContact" />
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="add-user-company">Company</label>
+          <input type="text" id="add-user-company" class="form-control" placeholder="Web Developer" aria-label="jdoe1" name="companyName" />
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="country">Country</label>
+          <select id="country" class="select2 form-select">
+            <option value="">Select</option>
+            <option value="Australia">Australia</option>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="Belarus">Belarus</option>
+            <option value="Brazil">Brazil</option>
+            <option value="Canada">Canada</option>
+            <option value="China">China</option>
+            <option value="France">France</option>
+            <option value="Germany">Germany</option>
+            <option value="India">India</option>
+            <option value="Indonesia">Indonesia</option>
+            <option value="Israel">Israel</option>
+            <option value="Italy">Italy</option>
+            <option value="Japan">Japan</option>
+            <option value="Korea">Korea, Republic of</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Philippines">Philippines</option>
+            <option value="Russia">Russian Federation</option>
+            <option value="South Africa">South Africa</option>
+            <option value="Thailand">Thailand</option>
+            <option value="Turkey">Turkey</option>
+            <option value="Ukraine">Ukraine</option>
+            <option value="United Arab Emirates">United Arab Emirates</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="United States">United States</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="user-role">User Role</label>
+          <select id="user-role" class="form-select">
+            <option value="subscriber">Subscriber</option>
+            <option value="editor">Editor</option>
+            <option value="maintainer">Maintainer</option>
+            <option value="author">Author</option>
+            <option value="admin">Admin</option>
+          </select>
+        </div>
+        <div class="mb-4">
+          <label class="form-label" for="user-plan">Select Plan</label>
+          <select id="user-plan" class="form-select">
+            <option value="basic">Basic</option>
+            <option value="enterprise">Enterprise</option>
+            <option value="company">Company</option>
+            <option value="team">Team</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary me-sm-3 me-1 data-submit">Submit</button>
+        <button type="reset" class="btn btn-label-secondary" data-bs-dismiss="offcanvas">Cancel</button>
+      </form>
+    </div>
+  </div>
+</div>
+
 
           </div>
           <!-- / Content -->
@@ -1992,38 +2041,38 @@
   <!-- Core JS -->
   <!-- build:js assets/vendor/js/core.js -->
   
-  <script src="{{ asset('assets/vendor/libs/jquery/jquery.js')}}"></script>
-  <script src="{{ asset('assets/vendor/libs/popper/popper.js')}}"></script>
-  <script src="{{ asset('assets/vendor/js/bootstrap.js')}}"></script>
-  <script src="{{ asset('assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js')}}"></script>
-  <script src="{{ asset('assets/vendor/libs/hammer/hammer.js')}}"></script>
-  <script src="{{ asset('assets/vendor/libs/i18n/i18n.js')}}"></script>
-  <script src="{{ asset('assets/vendor/libs/typeahead-js/typeahead.js')}}"></script>
-  <script src="{{ asset('assets/vendor/js/menu.js')}}"></script>
+  <script src="../../assets/vendor/libs/jquery/jquery.js"></script>
+  <script src="../../assets/vendor/libs/popper/popper.js"></script>
+  <script src="../../assets/vendor/js/bootstrap.js"></script>
+  <script src="../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+  <script src="../../assets/vendor/libs/hammer/hammer.js"></script>
+  <script src="../../assets/vendor/libs/i18n/i18n.js"></script>
+  <script src="../../assets/vendor/libs/typeahead-js/typeahead.js"></script>
+  <script src="../../assets/vendor/js/menu.js"></script>
   
   <!-- endbuild -->
 
   <!-- Vendors JS -->
-  <script src="{{ asset('assets/vendor/libs/fullcalendar/fullcalendar.js')}}"></script>
-  <script src="{{ asset('assets/vendor/libs/%40form-validation/umd/bundle/popular.min.js')}}"></script>
-  <script src="{{ asset('assets/vendor/libs/%40form-validation/umd/plugin-bootstrap5/index.min.js')}}"></script>
-  <script src="{{ asset('assets/vendor/libs/%40form-validation/umd/plugin-auto-focus/index.min.js')}}"></script>
-  <script src="{{ asset('assets/vendor/libs/select2/select2.js')}}"></script>
-  <script src="{{ asset('assets/vendor/libs/flatpickr/flatpickr.js')}}"></script>
-  <script src="{{ asset('assets/vendor/libs/moment/moment.js')}}"></script>
+  <script src="../../assets/vendor/libs/moment/moment.js"></script>
+<script src="../../assets/vendor/libs/datatables-bs5/datatables-bootstrap5.js"></script>
+<script src="../../assets/vendor/libs/select2/select2.js"></script>
+<script src="../../assets/vendor/libs/%40form-validation/umd/bundle/popular.min.js"></script>
+<script src="../../assets/vendor/libs/%40form-validation/umd/plugin-bootstrap5/index.min.js"></script>
+<script src="../../assets/vendor/libs/%40form-validation/umd/plugin-auto-focus/index.min.js"></script>
+<script src="../../assets/vendor/libs/cleavejs/cleave.js"></script>
+<script src="../../assets/vendor/libs/cleavejs/cleave-phone.js"></script>
 
   <!-- Main JS -->
-  <script src="{{ asset('assets/js/main.js')}}"></script>
+  <script src="../../assets/js/main.js"></script>
   
 
   <!-- Page JS -->
-  <script src="{{ asset('assets/js/app-calendar-events.js')}}"></script>
-  <script src="{{ asset('assets/js/app-calendar.js')}}"></script>
+  <script src="../../assets/js/app-user-list.js"></script>
   
 </body>
 
 
-<!-- Mirrored from demos.themeselection.com/sneat-bootstrap-html-admin-template/html/vertical-menu-template/app-calendar.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 13 Jan 2024 08:23:09 GMT -->
+<!-- Mirrored from demos.themeselection.com/sneat-bootstrap-html-admin-template/html/vertical-menu-template/app-user-list.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 13 Jan 2024 08:23:30 GMT -->
 </html>
 
 <!-- beautify ignore:end -->

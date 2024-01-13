@@ -25,16 +25,31 @@ Route::get('/login', function () {
     return view('auth.login');
 });
 
-Route::get('/frame', function () {
-    return view('architecture/0frame');
-});
-
 Route::get('/crm', function () {
     return view('crm.index');
 });
 Route::get('/sales', function () {
     return view('crm.app-calendar');
 });
+Route::get('/customer', function () {
+    return view('crm.app-user-list');
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Route::get('/purchasing', function () {
     return view('purchasing');
